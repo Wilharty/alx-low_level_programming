@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- *  main - Program that prints the size of various types on the computer it's compiled
+/** 
+ *  main - Prints the size of various types on the computer it's compiled
  *
  *  return: 0 if success
  */
@@ -12,7 +12,7 @@ int main(void)
 	long int long_integerType;
 	long long int long_long_integerType;
 	float floatType;
-	/*sizeof operator is used to evaluate the size of a variable*/
+	/*sizeof op is used to evaluate the size of a variable*/
 	printf("Size of a char: %ld byte(s)\n", sizeof(charType));
 	printf("Size of an int: %ld byte(s)\n", sizeof(integerType));
 	printf("Size of a long int: %u byte(s)\n", sizeof(long_integerType));
