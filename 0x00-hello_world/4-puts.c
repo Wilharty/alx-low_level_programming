@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-
 	/**
-	 * main - Printing
+	 * Description: main - starting point for program execution
 	 *
 	 * Return: Always 0 (Success)
 	 */
