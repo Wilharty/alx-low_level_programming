@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- *  main - Entry point
+ *  main - Program that prints the size of various types on the computer it's compiled
  *
  *  return: 0 if success
  */
@@ -16,6 +16,6 @@ int main(void)
 	printf("Size of a char: %c byte(s)\n", sizeof(charType));
 	printf("Size of an int: %ld byte(s)\n", sizeof(integerType));
 	printf("Size of a long int: %u byte(s)\n", sizeof(long_integerType));
-	printf("Size of a long long int: %ld byte(s)\n", sizeof(long_long_integerType));
+	printf("Size of a long long int: %u byte(s)\n", sizeof(long_long_integerType));
 	return (0);
 }
