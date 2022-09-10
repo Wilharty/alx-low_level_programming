@@ -3,25 +3,21 @@
 /*
  *  main - Entry point
  *
- *  Description: using the main function
- *  
- *  The program prints the size of various types on the computer it's compiled
- *
  *  return: 0 if success
  */
 int main(void)
 {
-	char c;
-	int i;
-	long int li;
-	long long int lli;
-	float f;
+char c;
+int i;
+long int li;
+long long int lli;
+float f;
 
-	/*sizeof is used to evaluate the size of a variable*/
-	printf("Size of a char: %ld byte(s)\n", sizeof(c));
-	printf("Size of an int: %ld byte(s)\n", sizeof(i));
-	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
-	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
-	printf("Size of a floatType: %ld byte(s)\n", sizeof(f));
-	return (0);
+/*sizeof is used to evaluate the size of a variable*/
+printf("Size of a char: %ld byte(s)\n", sizeof(c));
+printf("Size of an int: %ld byte(s)\n", sizeof(i));
+printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
+printf("Size of a floatType: %ld byte(s)\n", sizeof(f));
+return (0);
 }
