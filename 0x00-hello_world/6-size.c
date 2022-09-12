@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - Entry point of the program
-* Descrition: Return - Always 0 (Success)
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -10,6 +10,7 @@ int i;
 long int li;
 long long int lli;
 float f;
+/*Sizeof operator is used to evaluate the size of a variable*/
 printf("Size of a char: %d byte(s)\n", sizeof(c));
 printf("Size of an int: %d byte(s)\n", sizeof(i));
 printf("Size of a long int: %d byte(s)\n", sizeof(li));
