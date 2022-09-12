@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /*Prog to print whether the nmber stored in the var n is pos or neg*/
 /**
@@ -11,8 +12,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Enter a number: ");
-	scanf("%d", &n);
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
