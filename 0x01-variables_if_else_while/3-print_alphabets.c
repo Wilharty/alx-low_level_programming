@@ -13,9 +13,11 @@ int main(void)
 			{
 				putchar(low);
 				low++;
+			}
+				putchart('\n');
+			{
 				putchar(upp);
 				upp++;
 			}
-				putchar('\n');
 	return (0);
 }
