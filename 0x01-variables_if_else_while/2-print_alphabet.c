@@ -1,5 +1,5 @@
-#include <stdio>
-#include <stdlib>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prog that print the alph in lwcase, f by a new l
  * Return: Always 0 (Success)
