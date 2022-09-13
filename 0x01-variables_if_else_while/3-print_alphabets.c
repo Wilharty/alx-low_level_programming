@@ -17,4 +17,5 @@ int main(void)
 				putchar(upp);
 				upp++;
 			}
+	return (0);
 }
