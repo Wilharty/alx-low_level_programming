@@ -12,6 +12,7 @@ int main(void)
 			putchar(low);
 			low++;
 		}
+			putchar('\n');
 
 	return (0);
 }
