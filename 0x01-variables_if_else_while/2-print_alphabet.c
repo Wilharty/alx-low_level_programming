@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int lo
+	int low;
 
 	for (low = 'a'; low <= 'z'; low++)
 	putchar(low);
