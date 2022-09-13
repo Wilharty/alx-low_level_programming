@@ -13,9 +13,9 @@ int main(void)
 			{
 				putchar(low);
 				low++;
-				putchar('\n');
 				putchar(upp);
 				upp++;
+				putchar('\n');
 			}
 	return (0);
 }
