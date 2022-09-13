@@ -6,10 +6,10 @@
 */
 int main(void)
 {
-	int alph_low
+	int lo
 
-	for (alph_low = 'a'; alph_low <= 'z'; alph_low ++)
-	putchar(alph_low);
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
 	putchar("\n");
 
 	return (0);
