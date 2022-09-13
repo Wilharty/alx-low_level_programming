@@ -8,7 +8,7 @@ int main(void)
 {
 	char alph_low
 
-	for (alph_low = 'a'; alph_low <= 'z'; alph_low ++)
+	for (alph_low = 'a', alph_low <= 'z', alph_low ++)
 	putchar(alph_low);
 	printf("\n");
 
