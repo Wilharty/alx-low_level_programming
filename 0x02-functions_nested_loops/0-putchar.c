@@ -1,4 +1,5 @@
-#include "main.h";
+#include "main.h"
+
 /**
  * main - program that prints _putchar, f by a nl
  * Return: 0 if success
@@ -14,5 +15,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-return (0);
+	return (0);
 }
