@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - function that prints alph in low f by a ml
+ * print_alphabet - function that prints alph in low f by a ml
  * Return: 9 if success
  */
 void print_alphabet(void)
