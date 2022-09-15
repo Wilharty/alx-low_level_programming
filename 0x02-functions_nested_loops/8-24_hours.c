@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * jack_bauer - funct that print every min of jack bauer's day, 0:00 to 23:59
- * @h: variable hour
- * @m: variable min
+ * h: variable hour
+ * m: variable min
  * Return: 0 if success
  */
-void jack_bauer(void h,m)
+void jack_bauer(void)
 {
 	int h = 0;
 	int m = 0;
