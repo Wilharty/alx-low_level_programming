@@ -13,12 +13,12 @@ void print_alphabet_x10(void)
 		(nmber < 11)
 	{
 		while
-			(low_10 <= 'z');
+			(low_10 <= 'z')
 		{
 			_putchar(low_10);
 			low_10++;
 		}
 		_putchar('\n');
-	}
 		nmber++;
+	}
 }
