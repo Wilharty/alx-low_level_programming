@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 /**
  * print_alphabet_x10 - funct that prints the alph 10 X in low f by a nl
