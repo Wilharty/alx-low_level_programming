@@ -3,7 +3,7 @@
  * _islower - funct that checks for low chars
  * Return: 1 if it's low, 0 otherwise
  */
-int _islower(int c);
+int _islower(int c)
 {
 	char low = 'a';
 	int c = 97;
