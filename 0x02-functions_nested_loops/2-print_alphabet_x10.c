@@ -19,6 +19,7 @@ void print_alphabet_x10(void)
 			low_10++;
 		}
 		_putchar('\n');
+		low_10 = 'a';
 		nmber++;
 	}
 }
