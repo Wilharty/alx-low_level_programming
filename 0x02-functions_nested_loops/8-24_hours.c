@@ -5,7 +5,7 @@
  * @m: variable min
  * Return: 0 if success
  */
-void jack_bauer(void h, m)
+void jack_bauer(void h,m)
 {
 	int h = 0;
 	int m = 0;
