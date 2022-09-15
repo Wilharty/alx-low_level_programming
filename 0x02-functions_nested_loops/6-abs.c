@@ -2,7 +2,7 @@
 /**
  * _abs - funct that computes the abs path val of an int
  * @i: integer variable
- * Return: 0 if success
+ * Return: -i if success, otherwise i
  */
 int _abs(int i)
 {
