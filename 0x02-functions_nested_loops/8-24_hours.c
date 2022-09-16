@@ -13,7 +13,8 @@ void jack_bauer(void)
 	while
 		(h < 24)
 	{
-		if (m < 60)
+		while
+			(m < 60)
 		{
 			if (h < 10)
 			{
