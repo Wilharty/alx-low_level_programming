@@ -14,7 +14,7 @@ void times_table(void)
 		while
 			(value < 10)
 		{
-			result = table * value
+			result = table * value;
 			if (value == 0)
 			{
 				_putchar(result + '0');
