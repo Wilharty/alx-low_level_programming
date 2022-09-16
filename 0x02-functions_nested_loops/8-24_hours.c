@@ -10,9 +10,11 @@ void jack_bauer(void)
 	int h = 0;
 	int m = 0;
 
-	if (h < 24)
+	while
+		(h < 24)
 	{
-		if (m < 60)
+		while
+			(m < 60)
 		{
 			if (h < 10)
 			{
@@ -36,8 +38,10 @@ void jack_bauer(void)
 				_putchar((m % 10) + '0');
 			}
 		_putchar('\n');
-			m++;
+		m = m + 1;
+		m++;
 		}
+			h = h + 1;
 			h++;
 	}
 }
