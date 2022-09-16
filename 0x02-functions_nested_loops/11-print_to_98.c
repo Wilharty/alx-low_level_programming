@@ -1,4 +1,4 @@
-#include "maim.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * print_to_98 - funct that print all Q nmbers from n to 98 in order, f by a nl
