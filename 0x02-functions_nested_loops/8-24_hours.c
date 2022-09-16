@@ -11,10 +11,10 @@ void jack_bauer(void)
 	int m = 0;
 
 	while
-		(h < 24)
+		(m < 60)
 	{
 		while
-			(m < 60)
+			(h < 24)
 		{
 			if (h < 10)
 			{
