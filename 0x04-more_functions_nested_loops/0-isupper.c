@@ -6,9 +6,9 @@
  */
 int _isupper(int c)
 {
-	signed char upper = signed char(c);
+	char c = char(c);
 
-	if (upper <= 'Z')
+	if (c <= 'Z')
 	{
 		return (1);
 	}
