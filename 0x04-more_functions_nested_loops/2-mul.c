@@ -3,13 +3,9 @@
  * mul - funct that mult txo int
  * @a: first int variable
  * @b: second int variable
- * Return: 0 is success
+ * Return: mul of a and b
  */
 int mul(int a, int b)
 {
-	int mul = 'a' * 'b';
-
-	_putchar(mul + '0');
-
-	return (0);
+	return (a * b);
 }
