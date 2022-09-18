@@ -5,7 +5,7 @@
  * @b: second int variable
  * Return: 0 is success
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	return ('a' * 'b');
 }
