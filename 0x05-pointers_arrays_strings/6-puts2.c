@@ -3,7 +3,7 @@
  * puts2 - func that prints every other char of a string
  * @str: variable to print
  */
-void puts2(char *str);
+void puts2(char *str)
 {
 	int i = 0;
 
