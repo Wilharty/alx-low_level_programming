@@ -3,7 +3,7 @@
  * _puts - funct that prints a string, f by a ml
  * @str: to print
  */
-void _puts(char *str);
+void _puts(char *str)
 {
 	while
 		(*str != '\O')
