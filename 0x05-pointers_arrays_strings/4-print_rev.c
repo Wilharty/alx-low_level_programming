@@ -3,7 +3,7 @@
  * print_rev - funct that prints a str in reverse, f by a nl
  * @s: varible string
  */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int i;
 
