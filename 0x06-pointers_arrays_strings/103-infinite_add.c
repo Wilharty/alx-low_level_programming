@@ -1,14 +1,12 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
  * infinite_add - add 2 integers.
  * @n1: integer
  * @n2: integer
  * @r: buffer
- * size_r: size of r
+ * @size_r: size of r
  * Return: char
  */
-
 int _atoi(char *s)
 {
 	int sign = 1, resp = 0, firstNum;
@@ -20,13 +18,11 @@ int _atoi(char *s)
 			sign *= -1;
 		}
 	}
-
 	for (int i = firstNum; s[i] >= 48 && s[i] <= 57; i++)
 	{
 		resp *= 10;
 		resp += (s[i] - 48);
 	}
-
 	return (sign * resp);
 }
 
@@ -60,6 +56,4 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
     b = _atoi(n2);
 
     sum = a + b;
-
-
 }
