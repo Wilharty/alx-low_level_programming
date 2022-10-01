@@ -9,3 +9,7 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int _square(int n, int sqr);
 int check_prime(int n, int val);
+int last_index(char *s);
+int check(char *s, int start, int end, int pair);
+int checker(char *s1, char *s2, int a, int b, int wildUsed);
+int checkLast(char *s, int i);
