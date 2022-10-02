@@ -24,7 +24,7 @@ int main(void)
 					putchar('0' + sec);
 					putchar('0' + thi);
 
-					if (thi + sec + thi != 9 + 8 + 7)
+					if (thi + sec + thi != 24)
 					{
 						putchar(',');
 						putchar(' ');
