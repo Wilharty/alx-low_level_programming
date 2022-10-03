@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
 	(void)argc;
-	int mul = atoi(argv[1]) * atoi(argv[2]);
+	int mul = atoi(*argv[1]) * atoi(*argv[2]);
 
 	if (argc > 3)
 	{
