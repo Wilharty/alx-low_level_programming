@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
 	(void)argc;
-	int mul = *argv[1] * *argv[2];
+	int mul = argv[1] * argv[2];
 
 	if (argc > 3)
 	{
@@ -16,6 +16,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	else
-		printf("%d", mul);
+		printf("%d\n", mul);
 		return (0);
 }
