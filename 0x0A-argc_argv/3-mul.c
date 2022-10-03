@@ -8,7 +8,6 @@
 int main(int argc, char *argv[])
 {
 	(void)argc;
-	int mul = atoi(argv[1]) * atoi(argv[2]);
 
 	if (argc > 2)
 	{
@@ -16,6 +15,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	else
-		printf("%d\n", mul);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]);
 		return (0);
 }
