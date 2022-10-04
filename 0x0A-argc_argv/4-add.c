@@ -14,14 +14,14 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 		printf("0\n");
-	else if (argc >= 2)
+	else
 	{
 		for (value = 1; value < argc; value++)
 		{
 			if (!isdigit(*argv[value]))
 				printf("Error\n");
 			else
-				sum += atoi(argv[value]);
+				sum = sum + atoi(argv[value]);
 		}
 		printf("%d\n", sum);
 	}
