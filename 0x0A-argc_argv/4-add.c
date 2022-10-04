@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	{
 		for (value = 1; value < argc; value++)
 		{
-			if (!isdigit(*argv[value]))
+			if (!isdigit(argv[value]))
 				printf("Error\n");
 			else
 				sum = sum + atoi(argv[value]);
