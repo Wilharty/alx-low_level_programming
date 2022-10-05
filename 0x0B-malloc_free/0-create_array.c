@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * create_array - func that creat array of chars, initi it with a specif char
@@ -11,8 +12,11 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 	char *array_char = malloc(sizeof(char) * size);
 
-	if (size == 0)
-		return (NULL);
+	if (size == NULL)
+	{
+		printf("No bytes allocate\n");
+		return (1);
+	}
 
 	for (i = 0; i < size; i++)
 	{
