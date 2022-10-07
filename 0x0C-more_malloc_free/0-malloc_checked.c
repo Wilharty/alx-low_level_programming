@@ -11,7 +11,9 @@ void *malloc_checked(unsigned int b)
 	int *aloc_mem = malloc(b);
 
 	if (!aloc_mem)
+	{
 		exit(98);
+	}
 
 return (aloc_mem);
 }
