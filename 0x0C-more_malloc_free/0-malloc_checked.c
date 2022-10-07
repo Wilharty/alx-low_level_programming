@@ -10,10 +10,8 @@ void *malloc_checked(unsigned int b)
 {
 	int *alocmem = malloc(b);
 
-	if (!(alocmem))
-	{
+	if (!alocmem)
 		exit(98);
-	}
 
 return (alocmem);
 }
