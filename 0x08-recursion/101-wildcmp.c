@@ -64,4 +64,4 @@ int checkLast(char *s, int i)
 		return (1);
 
 return (0);
-}
+
